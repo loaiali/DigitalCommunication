@@ -33,40 +33,40 @@ BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary mes
   - phase:0  
   ### Schemtatic
   
-  without raised cosine 
+  #### without raised cosine 
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK.PNG?raw=true)
   
-  with raised cosine
+  #### with raised cosine
   ![BPSK WITHOUT RAISED COSINE](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_Raised.PNG)
   
   ### Scatter plots
-  Before Noise scatter plot without raised cosine 
+  #### Before Noise scatter plot without raised cosine 
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseBPSK.jpg)
   
-   Before Noise scatter plot with raised cosine 
+   #### Before Noise scatter plot with raised cosine 
    
    ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_beforeNoise_Raised.jpg)
 
 
   
-  after Noise Scatter plot without raised cosine
+  #### after Noise Scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseBPSK.jpg)
   
-  after Noise Scatter plot with raised cosine
+  #### after Noise Scatter plot with raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_AfterNoise_Raisedjpg.jpg)
   
   
   ### BER performance
   
-  without raised cosine
+  #### without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK_Graph.jpg)
   
-  with raised cosine
+  #### with raised cosine
   
  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_Raised_Graph.jpg)
 
@@ -84,13 +84,15 @@ BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary mes
 4. M-FSK demodulator baseband:
   - M-ary number:8
  ### Schemtatic
+  #### without Raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/FSK.PNG)
+  
   ### Scatter plots
-  Before Noise scatter plot
+  #### Before Noise scatter plot
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseFSK.jpg)
   
-  after Noise Scatter plot
+  #### after Noise Scatter plot
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseFSK.jpg)
   ### BER performance
@@ -110,20 +112,35 @@ QAM is a modulation scheme that can be used to transmit analog signals or digita
 4. Rectangular QAM demodulatorr baseband:
   - M-ary number:16
  ### Schemtatic
-  Schemtaic
+  #### Without Raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM16.PNG)
+  
+  #### With Raised cosine
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QAM16_Raised.PNG)
   ### Scatter plots
-  Before Noise scatter plot
+  #### Before Noise scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQAM16.jpg)
   
-  after Noise Scatter plot
+  #### Before Noise scatter plot with raised cosine
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/beforeNoise_QAM16_Raised.jpg)
+  
+  #### after Noise Scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQAM.jpg)
   
+   #### after Noise Scatter plot with raised cosine
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/afterNoise_QAM16_Raisedjpg.jpg)
+  
   ### BER performance
+  #### without raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM16_Graph.jpg)
   
+  #### with raised cosine
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QAM16_GRAPH_Raisedjpg.jpg)
+
 ## 4-QAM64 modulation scheme
 QAM64 allows 8 amplitude variations 
 ### Paramters 
@@ -137,20 +154,33 @@ QAM64 allows 8 amplitude variations
 4. Rectangular QAM demodulatorr baseband:
   - M-ary number:64
  ### Schemtatic
-  Schemtaic
+  #### Without raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM64.PNG)
+  #### with raised cosine
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QAM64_Raised.PNG)
   
   ### Scatter plots
-  Before Noise scatter plot
+  #### Before Noise scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQAM64.jpg)
+  #### Before Noise scatter plot with raised cosine
   
-  after Noise Scatter plot
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/beforeNoise_QAM64_Raised.jpg)
+  
+  #### after Noise Scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQAM64.jpg)
   
+  #### after Noise Scatter plot with raised cosine
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/afterNoise_QAM64_Reduced.jpg)
+  
   ### BER performance
+  #### With raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM64_Graph.jpg)
+  #### without raised cosine
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QAM64_Raised_Graph.jpg)
+  
   
 ## 5-QPSK
 Quadrature phase shift keying (QPSK) is a modulation technique, which  transmits two bits per symbol. QPSK modulates the data in 4 different phases and that leads to doubling the data rate  
@@ -165,17 +195,29 @@ Quadrature phase shift keying (QPSK) is a modulation technique, which  transmits
 4. QPSK demodulatorr baseband:
   - Phase offset:pi/4
  ### Schemtatic
-  Schemtaic
+  #### Without raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QPSK.PNG)
+  #### With raised cosine
+ ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QPSK_Raised.PNG)
+
   ### Scatter plots
-  Before Noise scatter plot
+  #### Before Noise scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQPSK.jpg)
+  #### Before Noise scatter plot with raised cosine
   
-  after Noise Scatter plot
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/beforeNoise_QPSK_Raised.jpg)
+  
+  #### after Noise Scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQPSK.jpg)
+  #### after Noise Scatter plot with raised cosine
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/afterNoise_QPSK_Raised.jpg)
   
   ### BER performance
-  
+  #### Without raised cosine
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QPSK_Graph.jpg)
+  #### With raised cosine
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/QPSK_Raised_Graph.jpg)
+  
