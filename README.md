@@ -32,9 +32,21 @@ the output of BPSK is then fed to **AWGN Channel** which is a white noise channe
 4. BPSK demodulator baseband:
   - phase:0
   
-  ### Schemtatics 
+  ### Schemtatic
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK.PNG)
+  ### Scatter plots
+  Before Noise scatter plot
   
-  //insert BPSK photos here
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseBPSK.jpg)
+  
+  after Noise Scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseBPSK.jpg)
+  
+  ### BER performance
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK_Graph.jpg)
+ 
 ## 2-FSK modulation scheme
    FSK is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
    ## Paramters 
@@ -47,9 +59,19 @@ the output of BPSK is then fed to **AWGN Channel** which is a white noise channe
   - Eb/No:EbNo
 4. M-FSK demodulator baseband:
   - M-ary number:8
-### Schemtatics 
-//insert photos
-
+ ### Schemtatic
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/FSK.PNG)
+  ### Scatter plots
+  Before Noise scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseFSK.jpg)
+  
+  after Noise Scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseFSK.jpg)
+  ### BER performance
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/FSK_Graph.jpg)
 
 ## 3-QAM16 modulation scheme
 QAM is a modulation scheme that can be used to transmit analog signals or digital bit of streams,in QAM there exists two carriers having same frequency but shifted in phase by 90 degree (that doubles the BW)one is called I-carrier and the other one is the Q-carrier By varying the number of allowed amplitude variations, you can represent as many states(symbols) of information as you want at the 16 QAM we have 4 amplitude variations  
@@ -63,8 +85,21 @@ QAM is a modulation scheme that can be used to transmit analog signals or digita
   - Eb/No:EbNo
 4. Rectangular QAM demodulatorr baseband:
   - M-ary number:16
-### Schemtatics 
-//insert photos
+ ### Schemtatic
+  Schemtaic
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM16.PNG)
+  ### Scatter plots
+  Before Noise scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQAM16.jpg)
+  
+  after Noise Scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQAM.jpg)
+  
+  ### BER performance
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM16_Graph.jpg)
+  
 ## 4-QAM64 modulation scheme
 QAM64 allows 8 amplitude variations 
 ### Paramters 
@@ -77,8 +112,22 @@ QAM64 allows 8 amplitude variations
   - Eb/No:EbNo
 4. Rectangular QAM demodulatorr baseband:
   - M-ary number:64
-### Schemtatics 
-//insert photos
+ ### Schemtatic
+  Schemtaic
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM64.PNG)
+  
+  ### Scatter plots
+  Before Noise scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQAM64.jpg)
+  
+  after Noise Scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQAM64.jpg)
+  
+  ### BER performance
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QAM64_Graph.jpg)
+  
 ## 5-QPSK
 Quadrature phase shift keying (QPSK) is a modulation technique, which  transmits two bits per symbol. QPSK modulates the data in 4 different phases and that leads to doubling the data rate  
 ### Paramters 
@@ -91,5 +140,18 @@ Quadrature phase shift keying (QPSK) is a modulation technique, which  transmits
   - Eb/No:EbNo
 4. QPSK demodulatorr baseband:
   - Phase offset:pi/4
-### Schemtatics 
-//insert photos
+ ### Schemtatic
+  Schemtaic
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QPSK.PNG)
+  ### Scatter plots
+  Before Noise scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseQPSK.jpg)
+  
+  after Noise Scatter plot
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQPSK.jpg)
+  
+  ### BER performance
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QPSK_Graph.jpg)
