@@ -13,7 +13,27 @@
 6-type in the BER variable which will be the name of the modulation scheme
 
 7-click plot
-
+## General Paramaters
+1. Random number generator:
+  - Source of initial seed :Auto
+  - Initial Seed: 37
+  - Sample time:1
+2. Raised cosine transmit filter:
+  - Rolloff factor:0.2
+  - Filter span in Symbols:8
+  - Output samples per symbol:8
+  - Linear amplitude filter gain:1
+  -Input processing:Columns as channels
+  -Rate options: Enforce single-rate processing
+3. Raised cosine receive filter:
+  - Rolloff factor: 0.2
+  - Filter span in symbols:8
+  - Input samples per symbol:8
+  - Decimation factor:8
+  - Decimation offset:0
+  - Linear amplitude filter gain:1
+  -Input processing:Columns as channels
+  - Rate options :Enforce single-rate processing
 
 
 ## 1-BPSK modulation scheme
