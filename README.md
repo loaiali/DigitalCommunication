@@ -17,10 +17,10 @@
 
 
 ## 1-BPSK modulation scheme
+
 BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary message are represented by two different phase states in the carrier signal: θ=0∘ for binary 1 and θ=180∘ for binary 0.
 
-To modulate with BPSK using simulink i've used the **BPSK Modulator Baseband** this block accepts column vectors input signals,the **Random Number Generator** is the input to the modulator
-the output of BPSK is then fed to **AWGN Channel** which is a white noise channel ,the output of this channel is fed to **BPSK Demodulator Baseband**
+
 ### Paramters
 1. Random number generator:
   - Set size:2
@@ -30,22 +30,46 @@ the output of BPSK is then fed to **AWGN Channel** which is a white noise channe
 3. AWGN channel:
   - Eb/No:EbNo
 4. BPSK demodulator baseband:
-  - phase:0
-  
+  - phase:0  
   ### Schemtatic
-  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK.PNG)
+  
+  without raised cosine 
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK.PNG?raw=true)
+  
+  with raised cosine
+  ![BPSK WITHOUT RAISED COSINE](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_Raised.PNG)
+  
   ### Scatter plots
-  Before Noise scatter plot
+  Before Noise scatter plot without raised cosine 
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/beforeNoiseBPSK.jpg)
   
-  after Noise Scatter plot
+   Before Noise scatter plot with raised cosine 
+   
+   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_beforeNoise_Raised.jpg)
+
+
+  
+  after Noise Scatter plot without raised cosine
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseBPSK.jpg)
   
+  after Noise Scatter plot with raised cosine
+  
+  ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_AfterNoise_Raisedjpg.jpg)
+  
+  
   ### BER performance
   
+  without raised cosine
+  
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/BPSK_Graph.jpg)
+  
+  with raised cosine
+  
+ ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/Raised%20cosine/BPSK_Raised_Graph.jpg)
+
  
 ## 2-FSK modulation scheme
    FSK is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
