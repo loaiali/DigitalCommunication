@@ -152,6 +152,6 @@ Quadrature phase shift keying (QPSK) is a modulation technique, which  transmits
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/afterNoiseQPSK.jpg)
   
-  ###BER performance
+  ### BER performance
   
   ![BPSK SCHEMTAIC](https://github.com/loaiali/DigitalCommunication/blob/master/plots/QPSK_Graph.jpg)
